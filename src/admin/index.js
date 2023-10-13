@@ -10,6 +10,7 @@ const App = () => (
   <Admin dataProvider={dataProvider} layout={MyLayout}>
     <Resource name="posts" list={ListGuesser} />
     <Resource name="todos" list={ListGuesser} />
+
   </Admin>
 );
 
